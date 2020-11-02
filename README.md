@@ -7,7 +7,7 @@ It is a repository of varied geo / spatial research methods using Python librari
 
 [![Inset](data/inset_gh.png)](isochrone.ipynb "look")
 
-[![Airbnb](https://github.com/slowy07/geoPy/blob/master/rentals_gh.png)](https://github.com/slowy07/geoPy/blob/main/airbnb.ipynb "All that is solid melts into air")
+[![Airbnb](https://github.com/slowy07/geoPy/blob/main/rentals_gh.png)](https://github.com/slowy07/geoPy/blob/main/airbnb.ipynb "All that is solid melts into air")
 
 [Airbnb](https://github.com/slowy07/geoPy/blob/main/airbnb.ipynb): mapping Airbnb rental data in London
 
