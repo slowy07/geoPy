@@ -1,8 +1,0 @@
-channels:
-- defaults
-- slowy07
-dependencies:
-- arcgis
-- notebook
-- ipywidgets >=5.2.2,<7
-- widgetsnbextension >=1.2.6,<3
