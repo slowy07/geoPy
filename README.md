@@ -23,7 +23,7 @@ Router Comparison](https://github.com/urschrei/router_comparison): analyses rout
 
 
 [Contour](contour.ipynb): It shows the interpolation into a standard grid of irregularly distributed point data (mean rainfall), the measurement of a contour plot and its imposition on a basemap (see graph below). Delaunay Natural Neighbour ('matplotlib.griddata') and refinement of a coarse Delaunay mesh using 'matplotlib.UniformTriRefiner' that uses recursive subdivision and cubic interpolation are then contrasted with two methods for measuring continuous surfaces. High-res pictures are available in the folder [data](data) :umbrella::umbrella::umbrella:  
-Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor locations, and some plotting methods (more flexible than `scipy.spatial.voronoi2d`) are shown. 
+Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor locations, and some plotting methods (more flexible than `scipy.spatial.voronoi2d`) are shown.
 
 [![Make it rain](data/rainfall_interpolation.gif)](contour.ipynb "Anigifs are the future of spatial analysis")
 
@@ -39,7 +39,7 @@ Finally, the map is partitioned into *clipped* Voronoi cells based on the sensor
 
 ### Installation and usage
 
-Note that for most users, the Enthought [Canopy](https://www.enthought.com/products/canopy/) 
+Note that for most users, the Enthought [Canopy](https://www.enthought.com/products/canopy/)
 The easiest way to get the needed libraries is definitely the Python distribution (You'll have to install Folium and GeoPandas separately, they're not included). However, if you know what you are doing, you would still need separate compilers to load the libraries manually using 'requirements.txt'
 (GCC, Fortran), and libraries (GDAL, GEOS). The use of a [virtualenv](http://virtualenv.readthedocs.org/en/latest/) is advised.  
 The Rust libraries (though not their Python counterparts) require a Rust installation. For most platforms (OS X, Windows, *nix), using [rustup.rs](https://rustup.rs) is the easiest way to install and update a Rust installation.
@@ -67,5 +67,5 @@ A Rust implementation of the Mapbox Polylabel algorithm, which determines optimu
 
 
 ## license & copyright
-[**MIT LICENSE**](https://github.com/slowy07/geoPy/blob/main/LICENSE) \
+[**MIT LICENSE**](https://github.com/slowy07/geoPy/blob/main/LICENSE)\
 [**copyright**](https://github.com/urschrei/Geopython)
